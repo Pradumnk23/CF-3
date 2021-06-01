@@ -46,7 +46,7 @@ int main()
             while(n>0)
             {
                 if(n>=a[r])
-                    {n-=a[r];v.pb(a[r]);}
+                    {n-=a[r];v.pb(a[r]);r--;}
                 else
                     r--;
             }
